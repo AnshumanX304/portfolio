@@ -1,9 +1,12 @@
 *{
     box-sizing:border-box;
-    margin:0px;
-    padding:0px;
+    
     text-decoration:none;
     list-style:none;
+    margin:0px;
+}
+body{
+    margin:0px;
 }
 .container1{
     background-color: rgba(179, 165, 168, 0.581);
@@ -30,6 +33,7 @@
     color:white;
     padding:0px;
     padding-top:4px;
+    
 
 
 }
@@ -39,6 +43,7 @@
     padding-top:2px;
     justify-content:center;
     align-content:center;
+    font-family: "monserrat";
 
     
 }
@@ -48,6 +53,76 @@ a{
 a:hover{
     color:rgb(250, 214, 129);
     
+}
+.intromain{
+    display:flex;
+    flex-wrap:wrap;
+    align-content:center;
+    justify-content:center;
+    padding-top:70px;
+    padding-bottom: 70px;
+    padding:30px;
+    align-items: flex-end;
+    transform:tanslateY(-15px);
+}
+.intro{
+
+    font-size:30px;
+    font-family:"Montserrat";
+    font-weight: bold;
+    height:200px;
+    padding-top:20px;
+}
+.intromain-content{
+    justify-content:center;
+    align-content:center;
+    padding-top:16px;
+    width:400px;
+    letter-spacing:1px;
+    font-family: "montserrat";
+    line-height:40px;
+    color:rgb(112, 14, 3);
+}
+.container2{
+    background-color: rgb(90, 202, 231);
+    width:100%;
+    height:360px;
+    justify-content:center;
+    align-content:center;
+}
+.container2img{
+    width:125px;
+}
+.aboutme{
+    color:rgb(20, 3, 87);
+    font-size:30px;
+    transform: translateY(-10px);
+    font-family:"Source Code Pro";
+
+    letter-spacing:1px;
+    letter-spacing: 1px;
+
+}
+.aboutmecont{
+    color:black;
+    font-size:18px;
+    line-height: 40px;
+
+}
+.aboutcard{
+    background-color:white;
+    height:125px;
+    width:300px;
+    margin:auto;
+    box-shadow: 3px 3px 5px 0px blue;
+
+    
+    
+}
+.aboutcard:hover{
+    background-color:rgb(218, 255, 243);
+    transform: scale(1.01);
+
 }
 
 
