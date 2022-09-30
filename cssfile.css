@@ -35,17 +35,15 @@ body{
     align-content:center;
     height:30px;
     width:100%;
-    padding-top:7px;
     background-color:black;
     color:white;
     padding:0px;
-    padding-top:4px;
     font-family: "montserrat";
 }
 .navcontent{
     width:100px;
     display:flex;
-    padding-top:2px;
+    padding-top:5px;
     justify-content:center;
     align-content:center;
     
@@ -66,7 +64,7 @@ a:hover{
     justify-content:center;
     padding-top:70px;
     padding-bottom: 70px;
-    padding:30px;
+    
     align-items: flex-end;
     transform:tanslateY(-15px);
     background-color: rgb(245, 237, 243);
@@ -217,6 +215,11 @@ a:hover{
     }
     .line{
         padding-left: 95px;
+    }
+    .imagesskills{
+        display:flex;
+        justify-content: center;
+        padding-left:20px;
     }
 }
 
