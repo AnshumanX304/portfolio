@@ -9,8 +9,8 @@ body{
     margin:0px;
 }
 .container1{
-    background-color: rgba(179, 165, 168, 0.581);
-    color:black;
+    background-color: rgb(3, 3, 91);
+    color:white;
     display:flex;
     justify-content:center;
     align-content:center;
@@ -33,6 +33,7 @@ body{
     color:white;
     padding:0px;
     padding-top:4px;
+    font-family: "montserrat";
 }
 .navcontent{
     width:100px;
@@ -40,7 +41,7 @@ body{
     padding-top:2px;
     justify-content:center;
     align-content:center;
-    font-family: "monserrat";
+    
 
     
 }
@@ -53,7 +54,7 @@ a:hover{
 }
 .intromain{
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap:wrap-reverse;
     align-content:center;
     justify-content:center;
     padding-top:70px;
@@ -82,7 +83,7 @@ a:hover{
     color:rgb(112, 14, 3);
 }
 .container2{
-    background-color: rgb(90, 202, 231);
+    background-color: rgb(169, 226, 240);
     width:100%;
     height:360px;
     justify-content:center;
@@ -190,6 +191,19 @@ a:hover{
 .footercontent{
     padding:10px;
     color:white;
+}
+.animation{
+    width:100%;
+    height:400px;
+    background-color: rgb(229, 247, 247);
+}
+@media screen and (max-width:620px){
+    .line3{
+        padding-left:75px;
+    }
+    .line{
+        padding-left: 105px;
+    }
 }
 
 
