@@ -33,9 +33,6 @@ body{
     color:white;
     padding:0px;
     padding-top:4px;
-    
-
-
 }
 .navcontent{
     width:100px;
@@ -64,6 +61,7 @@ a:hover{
     padding:30px;
     align-items: flex-end;
     transform:tanslateY(-15px);
+    background-color: rgb(245, 237, 243);
 }
 .intro{
 
@@ -98,7 +96,6 @@ a:hover{
     font-size:30px;
     transform: translateY(-10px);
     font-family:"Source Code Pro";
-
     letter-spacing:1px;
     letter-spacing: 1px;
 
@@ -114,15 +111,89 @@ a:hover{
     height:125px;
     width:300px;
     margin:auto;
-    box-shadow: 3px 3px 5px 0px blue;
+    box-shadow: 3px 3px 8px 0px black;
 
     
     
 }
 .aboutcard:hover{
-    background-color:rgb(218, 255, 243);
-    transform: scale(1.01);
+    background-color:white;
+    transform: scale(1.02);
 
 }
+.container3{
+    margin-top: 58px;
+    background-color:beige;
+    width:100%;
+    height:600px;
+}
+.imagesskills{
+    display:flex;
+    justify-content: center;
+}
+.imagesdir{
+    width:200px;
+    padding-left:40px;
+}
+.container4{
+    background-color:aquamarine;
+    width:100%;
+    height:300px;
+}
+.contact{
+    color:rgb(3, 3, 101);
+    font-size:30px;
+
+    font-family:"Montserrat";
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+
+}
+.imagescontact{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content:center;
+}
+.imagesdirc{
+    width:200px;
+    padding-left:70px;
+    justify-content: center;
+    align-content:center;
+}
+.imagesdirct{
+    width:200px;
+    padding-left:50px;
+    padding-right: 50px;
+    justify-content: center;
+    align-content:center;
+}
+.imagesdirc:hover{
+
+    transform: scale(1.1);
+
+}
+.imagesdirct:hover{
+
+    transform: scale(1.1);
+
+}
+.footerdiv{
+    background-color: black;
+    width:100%;
+    height:50px;
+}
+.contactimg{
+    transform:translateY(-30px);
+
+}
+.footercontent{
+    padding:10px;
+    color:white;
+}
+
+
+
+
 
 
