@@ -15,6 +15,11 @@ body{
     margin-bottom: 10px;
     line-height:50px;
 }
+.fixnav{
+    position:fixed;
+    width:100%;
+    z-index: 3;
+}
 .container1{
     background-color: rgb(3, 3, 91);
     color:white;
@@ -45,9 +50,6 @@ body{
     padding-top:5px;
     justify-content:center;
     align-content:center;
-    
-
-    
 }
 a{
     color:azure;
@@ -61,7 +63,7 @@ a:hover{
     flex-wrap:wrap-reverse;
     align-content:center;
     justify-content:center;
-    padding-top:70px;
+    padding-top:150px;
     padding-bottom: 70px;
     
     align-items: flex-end;
@@ -150,7 +152,7 @@ a:hover{
 .container4{
     background-color:aquamarine;
     width:100%;
-    height:300px;
+    height:240px;
 }
 .contact{
     color:rgb(3, 3, 101);
@@ -183,7 +185,7 @@ a:hover{
     transform: scale(1.1);
 
 }
-.footerdiv{
+footer{
     background-color: black;
     width:100%;
     height:50px;
