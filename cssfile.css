@@ -21,18 +21,24 @@ body{
     z-index: 3;
 }
 .container1{
-    background-color: rgb(3, 3, 91);
-    color:white;
+    background: url('starrynight.jpg');
+    background-size:cover;
+    color:black;
     display:flex;
     justify-content:center;
     align-content:center;
     font-size:30px;
     width:100%;
-    height:80px;
+    height:90px;
     padding-top: 20px;
-    letter-spacing:0px;
     font-family:"Source Code Pro";
-
+}
+#rocket{
+    transform: rotate(-45deg);
+}
+.rocketmove{
+    margin-right:40px;
+    color:white;
 }
 .navigation{
     display:flex;
@@ -207,6 +213,7 @@ footer{
     background-size:cover;
     width:100%;
     height:40vh;
+    background-position: 0;
 }
 .backgroundsky{
     background:url('vecteezy_bright-cloudy-sky-cartoon-vector-illustration-background_6631117.jpg');
@@ -223,7 +230,7 @@ footer{
     height:50px;
     width:100%;
     justify-content:space-evenly;
-    background-color: rgb(243, 217, 237);;
+    background-color: white;
 }
 .butele{
     margin-top: 15px;
