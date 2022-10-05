@@ -16,6 +16,11 @@
     <header onmouseleave="movesky()"  class="container1">
         <div class="rocketmove"><img id="rocket" src="rocket.png" height="50px" width="50px"></div>
         <div class="rocketmove">Live life</div>
+        <div id="timeattr">
+            <div class="timeprop" id = "clock" onload="currentTime()"></div>
+            <div class="timeprop" id = "greet" ></div>
+            <div class="timeprop" id ="date"></div>
+        </div>
     </header>
     <nav class="navigation">
         <div class="navcontent"><a href="#home">Home</a></div>
@@ -23,6 +28,7 @@
         <div class="navcontent"><a href="#skills">Skills</a></div>
         <div class="navcontent"><a href="#contact">Contact</a></div>
     </nav>
+    
     </div>
     <section id="home" class="intromain">
         <div class="intromain-content">
@@ -35,22 +41,30 @@
             <img src="programmer (2).png" alt="image" height="190px" width="190px">
         </div>
     </section>
+    <div id="gap">
+
+    </div>
+    
 
     <div id="all" class="normalbackground">
         <img class="astro" src="astronaut.png" alt="" height="200px" width="200px">
+        <i id="aboutme"></i>
     </div>
+    
+    
     <div id="buttons">
         <div class="butele"><button type="button" onclick="takemetospace()">Space Talk</button></div>
         <div class="butele"><button type="button" onclick="talknojutsu()">Silent</button></div>
         <div class="butele"><button type="button" onclick="takemetosky()">Sky Talk</button></div>
     </div>
+    
     <section class="container2">
         <center><h1 style="padding-top:30px;" class="aboutme">About Me</h1></center><br><br>
         <div class="aboutcard"><center><p class="aboutmecont">Hello everyone, I am Anshuman Tiwari.</p>
         <p class="aboutmecont">I am currently pursuing my B.Tech in <br> the field of Computer Science.</p></center></div>
         <center><div style="padding-top:55px;" class="container2img"><img id="skills" src="programmer (1).png" height="125px" width="125px"></div></center>
     </section>
-
+    
     <section class="container3">
         <center><a><h1 class="aboutme" style="padding-top:30px;" >Skills</h1></a></center><br><br>
         <div class="imagesskills">
@@ -77,6 +91,7 @@
         <center><p class="footercontent">@anshumantiwari</p></center>
     </footer>
     <script src="index.js"></script>
+    <script src="time.js"></script>
 
 
 </body>
