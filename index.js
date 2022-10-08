@@ -1,5 +1,5 @@
-var idnight=NULL;
-var idday=NULL;
+var idnight=null;
+var idday=null;
 var idday2=null;
 function takemetospace()
 {
@@ -13,8 +13,8 @@ function takemetospace()
     idnight=setInterval(x,10);
     function x()
     {
-        document.querySelector(".background").style.backgroundPosition=i+'px';
-        i--;
+        document.querySelector(".background").style.backgroundPositionY=i+'px';
+        i+=1;
     }
     
 }
@@ -32,7 +32,7 @@ function takemetosky()
     function x()
     {
         document.querySelector(".backgroundsky").style.backgroundPosition=i+'px';
-        i--;
+        i-=1;
     }
 
     
